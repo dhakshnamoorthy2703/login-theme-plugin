@@ -26,7 +26,7 @@ THE SOFTWARE.
   <section class="app-sign-in-register__branding">
     <div class="app-sign-in-register__branding__starburst"></div>
     <div style="${it.customCSS}"></div>
-    <j:set var="imagesrc" defaultValue="${imagesURL}/svgs/logo.svg" value="${it.branding}"/>
+    <j:set var="imagesrc" value="${it.branding}"/>
     <img src="${imagesrc}" alt="${%logo}"/>
   </section>
 </j:jelly>
